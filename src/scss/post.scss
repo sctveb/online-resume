@@ -1,0 +1,55 @@
+@import 'variable.scss';
+
+.post {
+    .container {
+        max-width: $large-width;
+        margin-left: auto;
+        margin-right: auto; 
+        padding: 30px 10px;
+    }
+    h1 {
+        padding-left: 0.5rem;
+        border-left: solid 0.75rem #BF6A7A;
+        font-size: 2rem;
+        font-family: 'Montserrat', 'sans-serif';
+        font-weight: 400;
+    }
+    p {
+        font-size: 1.1rem;
+        font-weight: 400;
+        line-height: 2;
+        font-family: 'Nanum Myeongjo', serif;
+    }
+    img {
+        max-width: 100%;
+    }
+}
+
+
+// .bread ol {
+//     display: flex;
+//     margin: 0;
+//     padding: 0;
+//     list-style: none;
+// }
+// .bread a {
+//     display: block;
+//     padding: 5px;
+//     color: inherit;
+//     font-size: 0.875rem;
+//     text-decoration: none;
+// }
+
+// .bread a:hover {
+//     background-color: rgba(0,0,0,0.3);
+    
+// }
+
+// .bread a::after {
+//     margin-left: 10px;
+//     content: '\f054';
+//     font-family: 'Font Awesome 5 Free';
+//     font-weight: 900;
+//     opacity: 0.3;
+
+// }

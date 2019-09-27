@@ -3,27 +3,29 @@ import React, { Component } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
+import "../scss/contact.scss";
+
 class Contact extends Component {
     render() {
         return (
             <React.Fragment>
         <article className="post">
           <div className="container">
-            <h1>Contact Me</h1>
-            <p>LOGGER에 문의가 있다면 다음 연락처로 문의해주세요.</p>
+            <h1 style={{borderLeft: 'solid 0.75rem #ABCDEF'}}>Contact Me</h1>
+            <p>저에 대한 문의사항이 있으시다면 아래의 방법을 이용해주세요.</p>
             <div className="contact-wrap">
               <div className="contact">
                 <span>
                   <FontAwesomeIcon icon={faPhone} />
                 </span>
-                <h2>전화</h2>
+                <h2>Phone</h2>
                 <a href="tel:01090951464">010-9095-1464</a>
               </div>
               <div className="contact">
                 <span>
                   <FontAwesomeIcon icon={faEnvelope} />
                 </span>
-                <h2>이메일</h2>
+                <h2>Email</h2>
                 <a href="mailto:sctveb@gmail.com">sctveb@gmail.com</a>
               </div>
             </div>

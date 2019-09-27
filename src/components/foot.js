@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTwitter,
@@ -82,7 +83,8 @@ class Foot extends Component {
                     <a href="#">Home</a>
                   </li>
                   <li>
-                    <a href="#">Who Am I</a>
+                  <AnchorLink href='#whoami'>Who Am I</AnchorLink>
+                    {/* <a href="#whoami">Who Am I</a> */}
                   </li>
                   <li>
                     <a href="#">Portfolio</a>

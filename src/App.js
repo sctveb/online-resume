@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './App.scss';
+import './scss/app.scss';
 
 import Navbar from './components/navbar';
 import Hero from './components/hero';
