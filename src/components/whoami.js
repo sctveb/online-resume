@@ -10,18 +10,37 @@ class WhoAmI extends Component {
                     <div className="post">
                         <div className="container">
                             <h1>Who Am I</h1>
-                            <div className="title-image"></div>
+                            <div className="title-image">
+                                <img src="./img/test_profile.png" alt="title-image" />
+                            </div>
                             <div className="title-index">
                                 이름: 주현준
                                 생년월일:
                                 전화번호/ 이메일:
                         </div>
                         <div className="education">
-                            <ul>
+                            <table>
+                                <tbody>
+                                <tr>
+                                    <td>2007.03 ~ 2010.02</td>
+                                    <td>의정부고등학교</td>
+                                </tr>
+                                <tr>
+                                    <td>2011.03 ~ 2020.02</td>
+                                    <td>동국대학교</td>
+                                </tr>
+                                <tr>
+                                    <td>2018.05 ~ 2018.12</td>
+                                    <td>딥러닝 기반의 데이터 분석 전문가 과정 수료</td>
+                                </tr>
+                                </tbody>
+                                
+                            </table>
+                            {/* <ul>
                                 <li>2007.03 ~ 2010.02 : 의정부고등학교</li>
                                 <li>2011.03 ~ 2020.02 : 동국대학교</li>
                                 <li>2018.05 ~ 2018.12 : 딥러닝 기반의 데이터 분석 전문가 과정 수료</li>
-                            </ul>
+                            </ul> */}
                         </div>
                         <div className="skill1">
                             <ul>

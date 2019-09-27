@@ -9,8 +9,9 @@ class ListComponent extends Component {
                 <section id="list">
                 <div className="post">
                     <div className="container">
-                    포트폴리오 렌딩페이지
-                            현재 추가 중입니다
+                    <h1>Portfolio</h1>
+                    <p>포트폴리오 렌딩페이지
+                            현재 추가 중입니다</p>
                     </div>
                 </div>
                 </section>
