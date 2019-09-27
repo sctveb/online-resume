@@ -16,7 +16,13 @@ class WhoAmI extends Component {
                                 생년월일:
                                 전화번호/ 이메일:
                         </div>
-                        <div className="education">교육: 고등, 대, 국비교육</div>
+                        <div className="education">
+                            <ul>
+                                <li>2007.03 ~ 2010.02 : 의정부고등학교</li>
+                                <li>2011.03 ~ 2020.02 : 동국대학교</li>
+                                <li>2018.05 ~ 2018.12 : 딥러닝 기반의 데이터 분석 전문가 과정 수료</li>
+                            </ul>
+                        </div>
                         <div className="skill1">
                             <ul>
                                 <li>HTML, CSS(SCSS)를 통한 기본적인 컨텐츠 및 레이아웃 구성이 가능</li>
