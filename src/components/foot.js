@@ -80,17 +80,20 @@ class Foot extends Component {
                 <h3>Resume</h3>
                 <ul>
                   <li>
-                    <a href="#">Home</a>
+                  <AnchorLink href='#hero'>Home</AnchorLink>
+                    {/* <a href="#">Home</a> */}
                   </li>
                   <li>
                   <AnchorLink href='#whoami'>Who Am I</AnchorLink>
                     {/* <a href="#whoami">Who Am I</a> */}
                   </li>
                   <li>
-                    <a href="#">Portfolio</a>
+                  <AnchorLink href='#list'>Portfolio</AnchorLink>
+                    {/* <a href="#">Portfolio</a> */}
                   </li>
                   <li>
-                    <a href="#">Contact Me</a>
+                  <AnchorLink href='#contact'>Contact Me</AnchorLink>
+                    {/* <a href="#">Contact Me</a> */}
                   </li>
                 </ul>
               </div>

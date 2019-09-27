@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import $ from "jquery";
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -42,6 +43,22 @@ class Navbar extends Component {
             >
               <ul>
                 <li>
+                  <AnchorLink href='#hero'>Home</AnchorLink>
+                  {/* <a href="#">Home</a> */}
+                </li>
+                <li>
+                  <AnchorLink href='#whoami'>Who Am I</AnchorLink>
+                  {/* <a href="#whoami">Who Am I</a> */}
+                </li>
+                <li>
+                  <AnchorLink href='#list'>Portfolio</AnchorLink>
+                  {/* <a href="#">Portfolio</a> */}
+                </li>
+                <li>
+                  <AnchorLink href='#contact'>Contact Me</AnchorLink>
+                  {/* <a href="#">Contact Me</a> */}
+                </li>
+                {/* <li>
                   <a href="#">Home</a>
                 </li>
                 <li>
@@ -52,7 +69,7 @@ class Navbar extends Component {
                 </li>
                 <li>
                   <a href="#">Contact Me</a>
-                </li>
+                </li> */}
               </ul>
             </nav>
           </div>
